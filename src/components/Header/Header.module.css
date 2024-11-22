@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  align-items: center;
+  box-shadow: 0 4px 16px #0006;
+  padding: 0 20px;
+  background-color: #444;
+  position: sticky;
+  height: 50px;
+  padding: 0 5px;
+  gap: 5px;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+}
+
+.title {
+  font-size: 28px;
+  line-height: 28px;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.gap {
+  flex-grow: 1;
+}
